@@ -7,7 +7,7 @@ export class EstadisticaController{
 
     constructor(){}
 
-    getAllCrime(req,res){
+    getAllCrime2(req,res){
         try{
             let allEstadistics = estadisticaModel.all()
             response.succes(req,res,allEstadistics.delitos,200)
@@ -16,8 +16,18 @@ export class EstadisticaController{
             response.console.error(req,res,null,500)
         }
     }
+    getAllCrime(req,res){
+        try{
+            let allEstadistics = estadisticaModel.all()
+            let delitos = allEstadistics.delitos.map((x)=> ({name:x.name}))
+            response.succes(req,res,delitos,200)
+        }catch(err){
+            console.log(err)
+            response.console.error(req,res,null,500)
+        }
+    }
 
-    getListCrimeWithYear(req,res){
+    getListCrimeWithYear2(req,res){
         try{
             let allEstadistics = estadisticaModel.all()
             let crimes = allEstadistics.delitos
@@ -41,8 +51,18 @@ export class EstadisticaController{
         }
     }
 
+    getListCrimeWithYear(req,res){
+        try{
+            let allEstadistics = estadisticaModel.all();
+            let crimeWithYear = allEstadistics.delitos
+            response.succes(req,res,crimeWithYear,200)
+        }catch(err){
+            console.log(err)
+            response.console.error(req,res,null,500)
+        }
+    }
 
-    getAllTotalSexCrime(req,res){
+    getAllTotalSexCrime2(req,res){
         let allEstadistics = estadisticaModel.all()
         let crimes = allEstadistics.delitos
         let yearCrimes = allEstadistics.dataanio
@@ -67,7 +87,32 @@ export class EstadisticaController{
         response.succes(req,res,totalcrimes,200)
     }
 
-    getAllTotalCrime(req,res){
+    getAllTotalSexCrime(req,res){
+        try{
+            let allEstadistics = estadisticaModel.all()
+            let crimes = allEstadistics.delitos
+            
+            let delitoSexo = crimes.map((crime)=>{
+                let h =0;
+                let m =0;
+                crime.anios.map((year)=>{
+                    h += parseInt(year.hombre)
+                    m += parseInt(year.mujer)
+                })
+                return ({
+                    delito:crime.name,
+                    hombres:h,
+                    mujeres:m
+                })
+            });
+            response.succes(req,res,delitoSexo,200)
+        }catch(err){
+            console.log(err)
+            response.console.error(req,delitoSexo,null,500)
+        }
+    }
+
+    getAllTotalCrime2(req,res){
         let allEstadistics = estadisticaModel.all()
         let crimes = allEstadistics.delitos
         let yearCrimes = allEstadistics.dataanio
@@ -88,4 +133,29 @@ export class EstadisticaController{
         })
         response.succes(req,res,totalcrimes,200)
     }
+
+
+
+    getAllTotalCrime(req,res){
+        try{
+            let allEstadistics = estadisticaModel.all()
+            let crimes = allEstadistics.delitos
+            
+            let delitoSexo = crimes.map((crime)=>{
+                let t =0;
+                crime.anios.map((year)=>{
+                    t += parseInt(year.total)
+                })
+                return ({
+                    delito:crime.name,
+                    total:t,
+                })
+            });
+            response.succes(req,res,delitoSexo,200)
+        }catch(err){
+            console.log(err)
+            response.console.error(req,delitoSexo,null,500)
+        }
+    }
+
 }

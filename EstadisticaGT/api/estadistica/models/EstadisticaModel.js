@@ -3,9 +3,9 @@ import fs from 'fs';
 
 export class EstadisticaModel{
     constructor(){
-        this._name = 'db';
-        this._dataDir = 'db';
-        this._dataPath = 'db/db.json';
+        this._name = 'db2';
+        this._dataDir = 'db2';
+        this._dataPath = 'db/db2.json';
     }
 
     readJsonFile(){

@@ -1,0 +1,496 @@
+{
+    "years":[
+        {
+            "year":2016,
+            "total": 486391,
+            "hombres":298734,
+            "mujeres": 76104,
+            "ignorados":11553
+        },
+        {
+            "year": 2017,
+            "total":502294 ,
+            "hombres":293973,
+            "mujeres": 77663,
+            "ignorados":130658
+        },
+        {
+            "year": 2018,
+            "total":389539 ,
+            "hombres":220805,
+            "mujeres": 54620,
+            "ignorados":114114
+
+        },
+        {
+            "year": 2019,
+            "total":503306 ,
+            "hombres":291931,
+            "mujeres": 78391,
+            "ignorados":132984
+        },
+        {
+            "year": 2020,
+            "total": 427668,
+            "hombres":263260,
+            "mujeres": 72552,
+            "ignorados":91856
+
+        }
+    ],
+    "delitos":
+    [
+        {
+            "id":1,
+            "name":"Amenazas",
+            "anios":[
+                {
+                    "year": 2016,
+                    "total": "72164",
+                    "hombre": "43940",
+                    "mujer": "24931",
+                    "ignorados": "3293"
+                },
+                {
+                    "year": 2017,
+                    "total": "73369",
+                    "hombre": "44530",
+                    "mujer": "25160",
+                    "ignorados": "3679"
+                },
+                {
+                    "delito": 2018,
+                    "total": "53775",
+                    "hombre": "31845",
+                    "mujer": "18161",
+                    "ignorados": "3769"
+                },
+                {
+                    "delito": 2019,
+                    "total": "78487",
+                    "hombre": "46596",
+                    "mujer": "26271",
+                    "ignorados": "5620"
+                },
+                {
+                    "delito": 2020,
+                    "total": "73183",
+                    "hombre": "44434",
+                    "mujer": "24647",
+                    "ignorados": "4102"
+                }
+
+            ]
+          },
+          {
+            "id":2,
+            "name":"Hurto",
+            "anios":[
+                {
+                    "year": 2016,
+                    "total": "29858",
+                    "hombre": "11567",
+                    "mujer": "1849",
+                    "ignorados": "16442"
+                },
+                {
+                    "year": 2017,
+                    "total": "33879",
+                    "hombre": "12043",
+                    "mujer": "1849",
+                    "ignorados": "19987"
+                },
+                {
+                    "year": 2018,
+                    "total": "28516",
+                    "hombre": "9058",
+                    "mujer": "1394",
+                    "ignorados": "18064"
+                },
+                {
+                    "year": 2019,
+                    "total": "29731",
+                    "hombre": "9021",
+                    "mujer": "1630",
+                    "ignorados": "19080"
+                },
+                {
+                    "year": 2020,
+                    "total": "18320",
+                    "hombre": "7109",
+                    "mujer": "1512",
+                    "ignorados": "9699"
+                }
+            ]
+          },
+          {
+            "id":3,
+            "name":"Robo de equipo terminal movil",
+            "anios":[
+                {
+                    "year": 2016,
+                    "total": "25387",
+                    "hombre": "6416",
+                    "mujer": "334",
+                    "ignorados": "18637"
+                },
+                {
+                    "year": 2017,
+                    "total": "31699",
+                    "hombre": "5193",
+                    "mujer": "315",
+                    "ignorados": "26191"
+                },
+                {
+                    "year": 2018,
+                    "total": "26944",
+                    "hombre": "5341",
+                    "mujer": "307",
+                    "ignorados": "21296"
+                },
+                {
+                    "year": 2019,
+                    "total": "24605",
+                    "hombre": "5492",
+                    "mujer": "383",
+                    "ignorados": "18730"
+                },
+                {
+                    "year": 2020,
+                    "total": "12804",
+                    "hombre": "3668",
+                    "mujer": "344",
+                    "ignorados": "8792"
+                }
+            ]
+          },
+          {
+            "id":4,
+            "name":"Lesiones leves",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "28084",
+                    "hombre": "16096",
+                    "mujer": "10182",
+                    "ignorados": "1806"
+                },
+                {
+                    "year": "2017",
+                    "total": "28071",
+                    "hombre": "15780",
+                    "mujer": "10200",
+                    "ignorados": "2091"
+                },
+                {
+                    "year": "2018",
+                    "total": "19583",
+                    "hombre": "10452",
+                    "mujer": "7138",
+                    "ignorados": "1993"
+                },
+                {
+                    "year": "2019",
+                    "total": "28985",
+                    "hombre": "15667",
+                    "mujer": "10946",
+                    "ignorados": "2372"
+                },
+                {
+                    "year": "2020",
+                    "total": "25949",
+                    "hombre": "14306",
+                    "mujer": "9939",
+                    "ignorados": "1704"
+                }
+            ]
+          },
+          {
+            "id":5,
+            "name":"Robo agravado",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "24683",
+                    "hombre": "10116",
+                    "mujer": "556",
+                    "ignorados": "14011"
+                },
+                {
+                    "year": "2017",
+                    "total": "24185",
+                    "hombre": "8485",
+                    "mujer": "439",
+                    "ignorados": "15261"
+                },
+                {
+                    "year": "2018",
+                    "total": "19413",
+                    "hombre": "6832",
+                    "mujer": "313",
+                    "ignorados": "12268"
+                },
+                {
+                    "year": "2019",
+                    "total": "19778",
+                    "hombre": "7318",
+                    "mujer": "428",
+                    "ignorados": "12032"
+                },
+                {
+                    "year": "2020",
+                    "total": "15221",
+                    "hombre": "5968",
+                    "mujer": "350",
+                    "ignorados": "8903"
+                }
+            ]
+          },
+          {
+            "id":6,
+            "name":"Hurto agravado",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "19363",
+                    "hombre": "7519",
+                    "mujer": "1172",
+                    "ignorados": "10672"
+                },
+                {
+                    "year": "2017",
+                    "total": "18235",
+                    "hombre": "6002",
+                    "mujer": "958",
+                    "ignorados": "11275"
+                },
+                {
+                    "year": "2018",
+                    "total": "15155",
+                    "hombre": "4512",
+                    "mujer": "659",
+                    "ignorados": "9984"
+                },
+                {
+                    "year": "2019",
+                    "total": "15639",
+                    "hombre": "5618",
+                    "mujer": "922",
+                    "ignorados": "9099"
+                },
+                {
+                    "year": "2020",
+                    "total": "12466",
+                    "hombre": "4894",
+                    "mujer": "818",
+                    "ignorados": "6754"
+                }
+            ]
+          },
+          {
+            "id":7,
+            "name":"Robo",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "21568",
+                    "hombre": "8487",
+                    "mujer": "884",
+                    "ignorados": "12197"
+                },
+                {
+                    "year": "2017",
+                    "total": "19357",
+                    "hombre": "6687",
+                    "mujer": "638",
+                    "ignorados": "12032"
+                },
+                {
+                    "year": "2018",
+                    "total": "14123",
+                    "hombre": "4685",
+                    "mujer": "468",
+                    "ignorados": "8970"
+                },
+                {
+                    "year": "2019",
+                    "total": "15223",
+                    "hombre": "4818",
+                    "mujer": "586",
+                    "ignorados": "9819"
+                },
+                {
+                    "year": "2020",
+                    "total": "9983",
+                    "hombre": "3510",
+                    "mujer": "549",
+                    "ignorados": "5924"
+                }
+            ]
+          },
+          {
+            "id":8,
+            "name":"Lesiones culposas",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "12533",
+                    "hombre": "9117",
+                    "mujer": "714",
+                    "ignorados": "2702"
+                },
+                {
+                    "year": "2017",
+                    "total": "12387",
+                    "hombre": "8901",
+                    "mujer": "756",
+                    "ignorados": "2730"
+                },
+                {
+                    "year": "2018",
+                    "total": "10973",
+                    "hombre": "7484",
+                    "mujer": "681",
+                    "ignorados": "2808"
+                },
+                {
+                    "year": "2019",
+                    "total": "13162",
+                    "hombre": "9102",
+                    "mujer": "896",
+                    "ignorados": "3164"
+                },
+                {
+                    "year": "2020",
+                    "total": "10050",
+                    "hombre": "7189",
+                    "mujer": "607",
+                    "ignorados": "2254"
+                }
+            ]
+          },
+          {
+            "id":9,
+            "name":"Extorsion",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "8382",
+                    "hombre": "4625",
+                    "mujer": "826",
+                    "ignorados": "2931"
+                },
+                {
+                    "year": "2017",
+                    "total": "9652",
+                    "hombre": "4407",
+                    "mujer": "1086",
+                    "ignorados": "4159"
+                },
+                {
+                    "year": "2018",
+                    "total": "8870",
+                    "hombre": "3694",
+                    "mujer": "490",
+                    "ignorados": "4686"
+                },
+                {
+                    "year": "2019",
+                    "total": "17261",
+                    "hombre": "7777",
+                    "mujer": "844",
+                    "ignorados": "8640"
+                },
+                {
+                    "year": "2020",
+                    "total": "13993",
+                    "hombre": "6166",
+                    "mujer": "551",
+                    "ignorados": "7276"
+                }
+            ]
+          },
+          {
+            "id":10,
+            "name":"Coaccion",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "8035",
+                    "hombre": "5442",
+                    "mujer": "1993",
+                    "ignorados": "600"
+                },
+                {
+                    "year": "2017",
+                    "total": "7917",
+                    "hombre": "5342",
+                    "mujer": "1964",
+                    "ignorados": "611"
+                },
+                {
+                    "year": "2018",
+                    "total": "5081",
+                    "hombre": "3093",
+                    "mujer": "1264",
+                    "ignorados": "724"
+                },
+                {
+                    "year": "2019",
+                    "total": "8766",
+                    "hombre": "5614",
+                    "mujer": "2168",
+                    "ignorados": "984"
+                },
+                {
+                    "year": "2020",
+                    "total": "6604",
+                    "hombre": "4270",
+                    "mujer": "1723",
+                    "ignorados": "611"
+                }
+            ]
+          },
+          {
+            "id":11,
+            "name":"Otros",
+            "anios":[
+                {
+                    "year": "2016",
+                    "total": "236334",
+                    "hombre": "175409",
+                    "mujer": "32663",
+                    "ignorados": "28262"
+                },
+                {
+                    "year": "2017",
+                    "total": "243543",
+                    "hombre": "176603",
+                    "mujer": "34298",
+                    "ignorados": "32642"
+                },
+                {
+                    "year": "2018",
+                    "total": "187106",
+                    "hombre": "133809",
+                    "mujer": "23745",
+                    "ignorados": "29552"
+                },
+                {
+                    "year": "2019",
+                    "total": "251669",
+                    "hombre": "174908",
+                    "mujer": "33317",
+                    "ignorados": "43444"
+                },
+                {
+                    "year": "2020",
+                    "total": "229095",
+                    "hombre": "161746",
+                    "mujer": "31512",
+                    "ignorado5": "35837"
+                }
+            ]
+          }
+    ]
+}
